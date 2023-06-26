@@ -51,6 +51,7 @@ class Sky:
                 surface.blit(palm[0], palm[1])
             for cloud in self.clouds:
                 surface.blit(cloud[0], cloud[1])
+
 class Water:
     def __init__(self, top, level_width):
         water_start = -screen_width
